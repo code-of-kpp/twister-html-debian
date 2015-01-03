@@ -1,11 +1,3 @@
-Source: twister
-Section: net
-Priority: optional
-Homepage: http://www.twister.net.co/
-Standards-Version: 3.9.2
-Maintainer: Konstantin Podshumok <kpp.live@gmail.com>
-
-
 Source: twister-html
 Section: net
 Priority: optional
