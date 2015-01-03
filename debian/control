@@ -6,6 +6,7 @@ Standards-Version: 3.9.2
 Maintainer: Konstantin Podshumok <kpp.live@gmail.com>
 XSBC-Original-Maintainer: Miguel Freitas
 Vcs-Git: https://github.com/miguelfreitas/twister-html
+Build-Depends: debhelper
 
 
 Package: twister
