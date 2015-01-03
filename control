@@ -1,0 +1,37 @@
+Source: twister
+Section: net
+Priority: optional
+Homepage: http://www.twister.net.co/
+Standards-Version: 3.9.2
+Maintainer: Konstantin Podshumok <kpp.live@gmail.com>
+
+
+Source: twister-html
+Section: net
+Priority: optional
+Homepage: http://www.twister.net.co/
+Standards-Version: 3.9.2
+Maintainer: Konstantin Podshumok <kpp.live@gmail.com>
+XSBC-Original-Maintainer: Miguel Freitas
+Vcs-Git: https://github.com/miguelfreitas/twister-html
+
+
+Package: twister
+Architecture: all
+Depends: twister-html
+Description: p2p microblogging (meta package)
+ twister is an experimental peer-to-peer microblogging software.
+ User registration and authentication is provided by a bitcoin-like network,
+ so it is completely distributed (does not depend on any central authority).
+ Post distribution uses kademlia DHT network and bittorrent-like swarms,
+ both are provided by libtorrent.
+
+
+Package: twister-html
+Architecture: all
+Description: p2p microblogging (html GUI and themes)
+ twister is an experimental peer-to-peer microblogging software.
+ User registration and authentication is provided by a bitcoin-like network,
+ so it is completely distributed (does not depend on any central authority).
+ Post distribution uses kademlia DHT network and bittorrent-like swarms,
+ both are provided by libtorrent.
