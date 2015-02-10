@@ -9,10 +9,9 @@ Vcs-Git: https://github.com/miguelfreitas/twister-html
 Build-Depends: debhelper
 
 
-Package: twister
+Package: twister-html
 Architecture: all
-Depends: twister-html, twister-core
-Description: p2p microblogging (meta package)
+Description: p2p microblogging (html GUI and themes)
  twister is an experimental peer-to-peer microblogging software.
  User registration and authentication is provided by a bitcoin-like network,
  so it is completely distributed (does not depend on any central authority).
@@ -20,9 +19,10 @@ Description: p2p microblogging (meta package)
  both are provided by libtorrent.
 
 
-Package: twister-html
+Package: twister
 Architecture: all
-Description: p2p microblogging (html GUI and themes)
+Depends: twister-html, twister-core
+Description: p2p microblogging (meta package)
  twister is an experimental peer-to-peer microblogging software.
  User registration and authentication is provided by a bitcoin-like network,
  so it is completely distributed (does not depend on any central authority).
