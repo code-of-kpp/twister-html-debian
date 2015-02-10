@@ -11,7 +11,7 @@ Build-Depends: debhelper
 
 Package: twister
 Architecture: all
-Depends: twister-html
+Depends: twister-html twister-core
 Description: p2p microblogging (meta package)
  twister is an experimental peer-to-peer microblogging software.
  User registration and authentication is provided by a bitcoin-like network,
